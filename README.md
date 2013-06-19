@@ -1,4 +1,4 @@
 gitflow
 =======
 
-Gitflow presentation
+Gitflow presentation for training and reference
