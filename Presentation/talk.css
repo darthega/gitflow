@@ -5,7 +5,7 @@
 }
 
 #intro h1 {
-	width: 60%;
+	width: 100%;
 	min-height: 500px;
 	margin: 5% auto 0;
 }
@@ -15,11 +15,11 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 100%;
-	line-height: .3;
+	line-height: .5;
 	color: rgba(0,0,0,.7);
 	text-shadow: none;
-	background: url(img/rainbow-wood.jpg) bottom;
-	padding:.6em 0 0;
+	background: url(img/meander2.jpg) bottom;
+	padding: .4em 0 0;
 	overflow: hidden;
 }
 
