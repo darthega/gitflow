@@ -27,6 +27,17 @@
 #distributed .image { width: 1000px; }
 #staging .image { width: 360px; }
 #branching .image { width: 500px; }
+#sourcetree .image { width: 743px; }
+#gitflow .image { width: 535px; }
+
+#flow-branches ul { 
+	display: block;
+	float: left; 
+}
+#flow-branches .image { 
+	float: left;
+	width: 400px;
+}
 
 .image {
 	background: rgba(255, 255, 255, 0.8);
