@@ -26,7 +26,7 @@ section > header.slide > h1 {
 }
 
 html {
-	background: black url(img/rainbow-wood.jpg) bottom center;
+	background: black url(img/meander2.jpg) bottom center;
 	background-size: cover;
 }
 
@@ -106,17 +106,18 @@ strong, b {
 	.slide h2 {
 		font-family: 'Helvetica Neue', Helvetica, sans-serif;
 		font-weight: 100;
-		font-size: 1.2in;
+		font-size: .8in;
 	}
 	
 	.slide p,
 	.slide li {
-		font-weight: bold;
+		font-weight: normal;
 		letter-spacing: -.03em;
 	}
 		
 	.slide > ul {
 		list-style:none;	
+		margin: 1em 10%;
 	}
 	
 	.slide ol {
