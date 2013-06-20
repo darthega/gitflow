@@ -5,7 +5,7 @@
 }
 
 #intro h1 {
-	width: 60%;
+	width: 100%;
 	min-height: 500px;
 	margin: 5% auto 0;
 }
@@ -15,27 +15,36 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 100%;
-	line-height: .3;
+	line-height: .5;
 	color: rgba(0,0,0,.7);
 	text-shadow: none;
-	background: url(img/rainbow-wood.jpg) bottom;
-	padding:.6em 0 0;
+	background: url(img/meander2.jpg) bottom;
+	padding: .4em 0 0;
 	overflow: hidden;
 }
 
+#fast .image { width: 700px; }
+#distributed .image { width: 1000px; }
+#staging .image { width: 360px; }
+#branching .image { width: 500px; }
+#sourcetree .image { width: 743px; }
+#gitflow .image { width: 535px; }
 
-#css-controls-demo label {
+#flow-branches ul { 
 	display: block;
+	float: left; 
+}
+#flow-branches .image { 
+	float: left;
+	width: 400px;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio:0) {
-/* hack to avoid using the Object element in Safari/WebKit, due to WebKit Bug 27190 */
-	object[type="image/svg+xml"] {
-		display: none;
-	}
-	
-	#intro h1 {
-		background: url(logo.svg) no-repeat center;
-		background-size:100% auto;
-	}
+.image {
+	background: rgba(255, 255, 255, 0.8);
+	margin: 3% auto;
+	padding: 5px;
+	text-align: center;
+}
+.image img {
+	display: block;
 }
